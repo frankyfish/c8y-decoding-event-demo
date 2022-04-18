@@ -1,0 +1,19 @@
+{
+  "apiVersion": "1",
+  "version": "@project.version@",
+  "provider": {
+    "name": "Example-IoT GmbH"
+  },
+  "isolation": "PER_TENANT",
+  "requiredRoles": [
+    "ROLE_INVENTORY_READ",
+    "ROLE_INVENTORY_ADMIN",
+    "ROLE_EVENT_ADMIN"
+  ],
+  "roles": [
+  ],
+  "isDecoder": {
+    "name": "decoding-event-demo"
+  },
+  "settingsCategory": "decodingEventDemo"
+}

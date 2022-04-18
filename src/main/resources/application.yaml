@@ -1,0 +1,4 @@
+application:
+  name: decoding-event-demo
+server:
+  port: 8080
