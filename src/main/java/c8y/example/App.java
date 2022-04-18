@@ -46,7 +46,7 @@ public class App
         measurementValueDtos.add(measurementValueDto);
 
         MeasurementDto measurementDto = new MeasurementDto();
-        measurementDto.setType("c8y_example_lwm2m_decoder_binaryValues_byteIndex"); // taken from 
+        measurementDto.setType("c8y_example_lwm2m_decoder_binaryValues_byteIndex"); // taken from: https://bitbucket.org/m2m/cumulocity-examples/src/2b0d829e40caf729a1930065d5a9b39a300e04c9/sample-lwm2m-custom-decoder/src/main/java/c8y/example/bytesequencedecoder/ByteSequenceDecoderService.java#lines-57
         measurementDto.setTime(new DateTime());
         measurementDto.setValues(measurementValueDtos);
         measurementDto.setSeries("binaryValueSeries");
