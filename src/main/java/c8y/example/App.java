@@ -35,7 +35,7 @@ public class App
             produces = MediaType.APPLICATION_JSON_VALUE)
     @ResponseBody
     public DecoderResult decodeThings(@RequestBody DecoderInputData inputData) {
-        log.info("Starting fake decoding");
+        log.info("Starting fake decoding, telegram: {}", inputData);
         DecoderResult decoderResult = new DecoderResult();
 
         List<MeasurementValueDto> measurementValueDtos = new ArrayList<>();
